@@ -395,3 +395,33 @@
 "{:data 123}\n"
 <-RES----
 "game.core=> "
+<-RES----
+"user=> "
+----CMD->
+"(ns game.core  (:require [arcadia.core :refer :all])  (:import [UnityEngine.Networking NetworkServer]  EdnMsg)) (defonce data (atom {})) (add-watch data :data-watcher (fn [_ _ _ _] (log \"got new data! \" data))) (defn got-edn  [edn]  (reset! data (read-string edn))) (defn send-edn  [edn]  (.. NetworkServer (SendToAll (.. EdnMsg MsgType) (EdnMsg. edn))))\n"
+<-RES----
+"nil\n"
+----CMD->
+"(find-ns 'lumo.repl)"
+<-RES----
+"#'game.core/data\n#object[Atom 0x75ca6e00 {:status :ready, :val {}}]\n#'game.core/got-edn\n#'game.core/send-edn\n"
+----CMD->
+"123\n"
+<-RES----
+"nil\ngame.core=> "
+<-RES----
+"game.core=> "
+<-RES----
+"123\n"
+<-RES----
+"game.core=> "
+----CMD->
+"(send-edn \"{:data 123}\")\n"
+<-RES----
+"true\ngame.core=> "
+----CMD->
+"@data\n"
+<-RES----
+"{:data 123}\n"
+<-RES----
+"game.core=> "
