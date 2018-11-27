@@ -1,6 +1,11 @@
 # arcadia-network-example
 Small example on how to mix UNet and Arcadia
 
+## Dependencies
+You have to clone https://github.com/arcadia-unity/Arcadia into `Assets/`.
+
+
+## How to
 Start a repl, load the namespace `game.core`. Then you can send and receive edn messages.
 ```
 game.core=> (send-edn "{:data 123}")
