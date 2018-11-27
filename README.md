@@ -3,6 +3,7 @@ Small example on how to mix UNet and Arcadia
 
 ## Dependencies
 You have to clone https://github.com/arcadia-unity/Arcadia into `Assets/`.
+I used this parcticular commit: dbfbd785b9e18ed9f83996b2608169991b4ada76 (https://github.com/arcadia-unity/Arcadia/commit/dbfbd785b9e18ed9f83996b2608169991b4ada76)
 
 
 ## How to
