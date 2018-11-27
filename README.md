@@ -14,6 +14,6 @@ game.core=> @data
 {:data 123}
 ```
 
-`Assets/csharp/EdnMsg.cs` contains a small class for transferring edn data.
-`Assets/csharp/MyServer.cs` contains the code that calls `game.core/got-edn` when it gets an `EdnMsg`.
-`Assets/game/core.clj` contains the clojure functions to send and receive messages.
+* `Assets/csharp/EdnMsg.cs` contains a small class for transferring edn data.
+* `Assets/csharp/MyServer.cs` contains the code that calls `game.core/got-edn` when it gets an `EdnMsg`.
+* `Assets/game/core.clj` contains the clojure functions to send and receive messages.
