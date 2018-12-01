@@ -12,11 +12,11 @@ If you haven't tried Arcadia I'd recommend reading more about it first, maybe fo
 
 
 ## How to
-### Clicking a button
+### Click a button
 Hit play in unity, then click "LAN Host(H)".
 To test if it works, just click the button. You should see some messages in the Unity Console.
 
-### Using the repl
+### Use the repl
 If you want to try sending custom stuff, do the following:
 Start a repl, load the namespace `game.core`. Then you can send and receive edn messages.
 ```
@@ -26,7 +26,7 @@ game.core=> @data
 {:data 123}
 ```
 
-### Communicating with a standalone client
+### Communicate with a standalone client
 1. If you want to, you can edit `Assets/game/core.clj` and remove a comment to enable a (basic) repl in the standalone client.
 2. If you build a binary (by clicking `Arcadia/Build/Prepare Export`, then `File/Build & Run`), then you can run it, either as a host or a client, and then use the Unity Editor as the opposite (e.g. if the standalone is the host, the editor should be client).
 3. If you then click the button in the client, some messages should appear in the Unity Console.
