@@ -9,6 +9,7 @@ You have to clone https://github.com/arcadia-unity/Arcadia into `Assets/`. I use
 
 If you haven't tried Arcadia I'd recommend reading more about it first, maybe following a real [tutorial](https://github.com/arcadia-unity/Arcadia/wiki/Resources#Tutorials) or something.
 
+I've only tested it on OSX, but it should work on other platforms.
 
 ## How to
 ### Click a button
@@ -45,4 +46,4 @@ You'll probably get the most value from checking the source of these files (it's
 ## Questions?
 I'm quite often available at https://gitter.im/arcadia-unity/Arcadia :)
 
-I also use [Twitter](https://twitter.com/saikyun)
+I also use [Twitter](https://twitter.com/saikyun).
