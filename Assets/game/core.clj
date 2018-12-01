@@ -48,10 +48,6 @@
   [edn]
   (.. NetworkServer (SendToAll (.. EdnMsg MsgType) (EdnMsg. (prn-str edn)))))
 
-(defn send-resp
-  [msg]
-  (.. NetworkServer (SendToAll (.. EdnMsg MsgType) (EdnMsg. (prn-str msg)))))
-
 (defrole button-role
   (on-pointer-click
    [obj click-data k]
