@@ -1,5 +1,5 @@
 # arcadia-network-example
-Small example on how to mix UNet and Arcadia
+Small example on how to mix UNet and Arcadia.
 
 ![Talking to a server, using a repl connected to a client](https://new.memset.se/5853/ZzRYdnh1VStTUDBJdUE9PQ)
 *Talking to a server, using a repl connected to a client*
