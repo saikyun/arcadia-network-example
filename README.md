@@ -36,7 +36,7 @@ game.core=> @data
 6. Play around a bit! Have fun!
 
 ## Definitely check these files out
-You'll probably get the most value from checking the source of these files (it's like 150 lines of code)
+You'll probably get the most value from checking the source of these files (it's like 150 lines of code):
 
 * `Assets/csharp/EdnMsg.cs` contains a small class for transferring edn data.
 * `Assets/csharp/MyServer.cs` contains the code that calls `game.core/got-edn` when it gets an `EdnMsg`.
