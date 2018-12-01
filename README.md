@@ -1,9 +1,14 @@
 # arcadia-network-example
 Small example on how to mix UNet and Arcadia
 
+![Talking to a server, using a repl connected to a client](https://new.memset.se/5853/ZzRYdnh1VStTUDBJdUE9PQ)
+*Talking to a server, using a repl connected to a client*
+
 ## Dependencies
 You have to clone https://github.com/arcadia-unity/Arcadia into `Assets/`.
-I used this parcticular commit: dbfbd785b9e18ed9f83996b2608169991b4ada76 (https://github.com/arcadia-unity/Arcadia/commit/dbfbd785b9e18ed9f83996b2608169991b4ada76)
+I used this parcticular commit: [dbfbd785b9e18ed9f83996b2608169991b4ada76](https://github.com/arcadia-unity/Arcadia/commit/dbfbd785b9e18ed9f83996b2608169991b4ada76)
+
+If you haven't tried Arcadia I'd recommend reading more about it first, maybe following a real [tutorial](https://github.com/arcadia-unity/Arcadia/wiki/Resources#Tutorials) or something.
 
 
 ## How to
