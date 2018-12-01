@@ -5,8 +5,7 @@ Small example on how to mix UNet and Arcadia
 *Talking to a server, using a repl connected to a client*
 
 ## Dependencies
-You have to clone https://github.com/arcadia-unity/Arcadia into `Assets/`.
-I used this parcticular commit: [dbfbd785b9e18ed9f83996b2608169991b4ada76](https://github.com/arcadia-unity/Arcadia/commit/dbfbd785b9e18ed9f83996b2608169991b4ada76)
+You have to clone https://github.com/arcadia-unity/Arcadia into `Assets/`. I used this parcticular commit: [dbfbd785b9e18ed9f83996b2608169991b4ada76](https://github.com/arcadia-unity/Arcadia/commit/dbfbd785b9e18ed9f83996b2608169991b4ada76)
 
 If you haven't tried Arcadia I'd recommend reading more about it first, maybe following a real [tutorial](https://github.com/arcadia-unity/Arcadia/wiki/Resources#Tutorials) or something.
 
@@ -14,10 +13,12 @@ If you haven't tried Arcadia I'd recommend reading more about it first, maybe fo
 ## How to
 ### Click a button
 Hit play in unity, then click "LAN Host(H)".
+
 To test if it works, just click the button. You should see some messages in the Unity Console.
 
 ### Use the repl
 If you want to try sending custom stuff, do the following:
+
 Start a repl, load the namespace `game.core`. Then you can send and receive edn messages.
 ```
 game.core=> (send-edn-to-all "{:data 123}")
