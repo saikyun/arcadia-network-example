@@ -40,3 +40,7 @@ You'll probably get the most value from checking the source of these files (it's
 * `Assets/csharp/EdnMsg.cs` contains a small class for transferring edn data.
 * `Assets/csharp/MyServer.cs` contains the code that calls `game.core/got-edn` when it gets an `EdnMsg`.
 * `Assets/game/core.clj` contains the clojure functions to send and receive messages.
+
+## Questions?
+I'm quite often available at https://gitter.im/arcadia-unity/Arcadia :)
+I also use [Twitter](https://twitter.com/saikyun)
