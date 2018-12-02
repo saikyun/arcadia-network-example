@@ -14,6 +14,9 @@ You're not required to know about UNet to test this example, but if you actually
 I've only tested it on OSX, but it should work on other platforms.
 
 ## How to
+### Open a scene
+After starting unity, open the scene `Assets/Scenes/SampleScene`.
+
 ### Click a button
 Hit play in unity, then in game mode, click "LAN Host(H)". This starts hosting using UNets [NetworkManager](https://docs.unity3d.com/ScriptReference/Networking.NetworkManager.html), modified slightly in [`Assets/csharp/MyServer.cs`](https://github.com/Saikyun/arcadia-network-example/blob/master/Assets/csharp/MyServer.cs).
 
