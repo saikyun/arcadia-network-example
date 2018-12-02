@@ -1,7 +1,7 @@
 # arcadia-network-example
 Small example on how to mix UNet and Arcadia.
 
-![Talking to a server, using a repl connected to a client](https://new.memset.se/5853/ZzRYdnh1VStTUDBJdUE9PQ)
+![Talking to a server, using a repl connected to a client](https://new.memset.se/5853/ZzRYdnh1VStTUDBJdUE9PQ)\
 *Talking to a server, using a repl connected to a client*
 
 ## Dependencies
@@ -17,7 +17,13 @@ I've only tested it on OSX, but it should work on other platforms.
 ### Click a button
 Hit play in unity, then in game mode, click "LAN Host(H)". This starts hosting using UNets [NetworkManager](https://docs.unity3d.com/ScriptReference/Networking.NetworkManager.html), modified slightly in [`Assets/csharp/MyServer.cs`](https://github.com/Saikyun/arcadia-network-example/blob/master/Assets/csharp/MyServer.cs).
 
+![Menu and button in game mode](https://new.memset.se/5854/U0h0OGMzVU1kOHZ3OUE9PQ)\
+*It should look like this*
+
 To test if it works, just click the "Send to Server" button. This sends a pre defined EDN-message from the client to the server. Currently both the server and the single client is run in the Unity Editor. You should see some messages in the Unity Console.
+
+![Network messages](https://new.memset.se/5856/L1M5ekp4Tm1KN1VRUXc9PQ)\
+*Some messages*
 
 ### Use the repl
 If you want to try sending custom EDN, do the following:
