@@ -25,15 +25,17 @@ To test if it works, just click the "Send to Server" button. This sends a pre de
 ![Network messages](https://new.memset.se/5856/L1M5ekp4Tm1KN1VRUXc9PQ)\
 *Some messages*
 
+What happens is that the server gets the message, then it sends a response containing the string "to server, a message came from <connection id>".
+
 ### Use the repl
 If you want to try sending custom EDN, do the following:
 
 Start a [repl in the way you prefer](https://github.com/arcadia-unity/Arcadia/wiki/REPL), load the namespace `game.core`. Then you can send and receive edn messages.
-```
+```clojure
 game.core=> (send-edn-to-all "{:data 123}")
-true
+;; true
 game.core=> @data
-{:data 123}
+;; {:data 123}
 ```
 `send-edn-to-all` looks like this:
 ```clojure
