@@ -23,6 +23,13 @@ Hit play in unity, then in game mode, click "LAN Host(H)". This starts hosting u
 ![Menu and button in game mode](https://new.memset.se/5854/U0h0OGMzVU1kOHZ3OUE9PQ)\
 *It should look like this*
 
+You might get an error like this:
+```
+The PlayerPrefab is empty on the NetworkManager. Please setup a PlayerPrefab object.
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+```
+Just ignore it, it's not relevant to the example.
+
 To test if it works, just click the "Send to Server" button. This sends a pre defined EDN-message from the client to the server. Currently both the server and the single client is run in the Unity Editor. You should see some messages in the Unity Console.
 
 ![Network messages](https://new.memset.se/5856/L1M5ekp4Tm1KN1VRUXc9PQ)\
