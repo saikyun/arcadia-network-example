@@ -52,3 +52,7 @@
   (on-pointer-click
    [obj click-data k]
    (on-button-click)))
+
+(defn init-roles []
+  (role+ (object-named "Main Camera") :fps frame-rate-role)
+  (role+ (object-named "ToServerButton") :send-button button-role))
