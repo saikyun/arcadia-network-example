@@ -5,7 +5,7 @@ Small example on how to mix UNet and Arcadia.
 *Talking to a server, using a repl connected to a client*
 
 ## Dependencies
-You have to clone https://github.com/arcadia-unity/Arcadia into `Assets/`. I used the beta branch on this parcticular commit: [3dc13e60a5c708c3d96f009040a286bb75f5e9ce](https://github.com/arcadia-unity/Arcadia/commit/3dc13e60a5c708c3d96f009040a286bb75f5e9ce)
+You have to clone https://github.com/arcadia-unity/Arcadia into `Assets/`. I used the master branch, [release 1.03](https://github.com/arcadia-unity/Arcadia/commit/488e64be85d242467729fff471a00916ffb6c3fa).
 
 If you haven't tried Arcadia I'd recommend reading more about it first, maybe following a real [tutorial](https://github.com/arcadia-unity/Arcadia/wiki/Resources#Tutorials) or something.
 
